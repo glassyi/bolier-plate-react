@@ -1,0 +1,19 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yuri lim",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
